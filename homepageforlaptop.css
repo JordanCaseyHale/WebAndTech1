@@ -1,0 +1,119 @@
+
+
+
+/* ~~~~~~~~~~~~~~ general tags ~~~~~~~~~~~~~~~~~~~*/
+
+/* ~~~~~~~~~~~~~~ header ~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+h1 {
+	background-color: rgb(135,206,250);
+	margin: 0;
+	padding: 0;
+	font-size: 2em;
+}
+
+/* ~~~~~~~~~~~~~~ navigation ~~~~~~~~~~~~~~~~~~~~~*/
+
+nav {
+	background-color: rgb(255,255,205);
+}
+
+nav ul li {
+	display: inline;
+	padding: 2px;
+	background-color:  rgb(255,255,205);
+	
+}
+
+/* The dropdown container */
+.dropdown {
+  float: middle;
+  overflow: hidden;
+  background-color: rgb(255,255,205);
+  font-family: Arial;
+  padding: 10px;
+}
+
+
+
+/* Links inside the navbar */
+.dropdown li {
+  float: left;
+  font-size: 16px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px; 
+  border: none;
+  outline: none;
+  background-color: rgb(255,255,205);
+  font-family: Arial; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content li {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content li:hover {
+  background-color: #ddd;
+}
+
+.dropdown .dropdown-content .areacontent{
+display: none;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content .foodcontent{
+display: none;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  z-index: 1;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .areas:hover .areacontent{
+  background-color: #ddd;
+  display: block;
+}
+
+.dropdown:hover .food:hover .foodcontent{
+  background-color: #ddd;
+  display: block;
+}
+.dropdown:hover .otheroptions:hover {
+	 background-color: #ddd;
+	 display: block;
+}
+/* ~~~~~~~~~~~~~~ main ~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+main {
+	padding: 15px;
+
+/* ~~~~~~~~~~~~~~ footer ~~~~~~~~~~~~~~~~~~~~~~~~~*/
+

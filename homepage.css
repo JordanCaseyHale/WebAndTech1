@@ -1,0 +1,60 @@
+
+/* ~~~~~~~~~~~~~~ general tags ~~~~~~~~~~~~~~~~~~~*/
+
+/* ~~~~~~~~~~~~~~ header ~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+h1 {
+	background-color: rgb(135,206,250);
+	margin: 0;
+	padding: 0;
+	font-size: 2em;
+}
+
+/* ~~~~~~~~~~~~~~ navigation ~~~~~~~~~~~~~~~~~~~~~*/
+
+ul{
+	margin: 0;
+}
+
+#wrapper{
+	width: 320px;
+	margin: 0 auto;
+}
+
+.multi-level, .item ul, .mainnav input[type = "checkbox"] {
+	display: none;
+}
+
+#menu:checked ~ .multi-level, .item input:checked ~ ul {
+	display: block;
+}
+
+label:hover {
+	cursor: pointer;
+}
+
+label {
+    width: 100%;
+    display: block;
+    z-index: 3;
+    position: relative;
+}
+
+.mainnav {
+	width: 100%;
+	background-color: rgb(255,255,205);
+	overflow-x: hidden;
+}
+
+#navicon {
+	font-size: 25px;
+	line-height: 40px;
+	padding-left: 1em;
+}
+
+
+/* ~~~~~~~~~~~~~~ main ~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/* ~~~~~~~~~~~~~~ footer ~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
