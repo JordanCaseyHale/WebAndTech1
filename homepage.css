@@ -52,6 +52,11 @@ label {
 	padding-left: 1em;
 }
 
+img {
+	max-width: 100%;
+	height: auto;
+	position: block;
+}
 
 /* ~~~~~~~~~~~~~~ main ~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
