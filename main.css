@@ -22,10 +22,7 @@ header h1 {
 }
 /* ~~~~~~~~~~~~~~ navigation ~~~~~~~~~~~~~~~~~~~~~*/
 
-ul .navlist{
-	margin: 0;
-	list-style-type: none;
-}
+
 
 li {
 	list-style-type: none;
@@ -35,11 +32,12 @@ li {
 #wrapper{
 	width: 320px;
 	margin: 0 auto;
-}
+} 
 
 .multi-level, .item ul, .mainnav input[type = "checkbox"] {
 	display: none;
 }
+
 
 #menu:checked ~ .multi-level, .item input:checked ~ ul {
 	display: block;
@@ -47,6 +45,7 @@ li {
 
 label:hover {
 	cursor: pointer;
+	color: red;
 }
 
 label {
@@ -56,10 +55,16 @@ label {
     position: relative;
 }
 
-.mainnav {
+.mainnav ,.item {
 	width: 100%;
 	background-color: rgb(255,255,205);
 	overflow-x: hidden;
+	line-height: 30px;
+	margin: 0;
+}
+#navitem {
+	line-height: 20px;
+	padding-left: 5px;
 }
 
 #navicon {
@@ -74,9 +79,20 @@ img {
 	position: block;
 }
 
-a: link {
+a:link {
 	text-decoration: none;
+	color: black;
 }
+
+a:hover {
+	color: red;
+}
+
+a:visited {
+	text-decoration: none;
+	color: purple;
+}
+
 /* ~~~~~~~~~~~~~~ main ~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 h1,p {
 	font-family: arial;
