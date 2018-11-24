@@ -74,6 +74,9 @@ img {
 	position: block;
 }
 
+a: link {
+	text-decoration: none;
+}
 /* ~~~~~~~~~~~~~~ main ~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 h1,p {
 	font-family: arial;
