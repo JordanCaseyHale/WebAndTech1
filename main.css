@@ -3,19 +3,23 @@
 
 /* ~~~~~~~~~~~~~~ header ~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
-header {
-	property-overflow: auto;
+
+header img {
+	width: 20%;
+	display: inline-block;
 	float: left;
 }
 
-h1 {
+header h1 {
 	background-color: #85DBFA;
 	width: 80%;
 	margin: 0;
 	padding: 0;
 	font-size: 1.5em;
+	float: right;
+	font-family: arial;
+	text-align: center;
 }
-
 /* ~~~~~~~~~~~~~~ navigation ~~~~~~~~~~~~~~~~~~~~~*/
 
 ul .navlist{
@@ -27,12 +31,7 @@ li {
 	list-style-type: none;
 }
 
-h1 img {
-	width: 55px;
-	height: 40px;
-	margin:0;
-	text-align: left;
-}
+
 #wrapper{
 	width: 320px;
 	margin: 0 auto;
@@ -76,10 +75,19 @@ img {
 }
 
 /* ~~~~~~~~~~~~~~ main ~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+h1,p {
+	font-family: arial;
+}
 
+p {
+	text-align: center;
+}
 /* ~~~~~~~~~~~~~~ footer ~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 footer {
-		background-color: rgb(255,255,205);
+	background-color: rgb(255,255,205);
+	padding: 5px;		
+	font-size: 0.5em;
+	color: gray;
+	text-align: center;
 }
-
