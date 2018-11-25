@@ -3,24 +3,56 @@
 
 /* ~~~~~~~~~~~~~~ header ~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
+@media screen and (min-width: 1200px) {
+	header {
+		background-color: #85DBFA;
+		margin: 0 5% 0 5%;
+	}
+	header img{
+		width: 10%;
+		float: left;
+		margin: 0;
+		padding: 0;
+		display: inline-block;
+	}
+	header h1 {
+		width: 90%;
+		float: right;
+		margin: 0;
+		padding: 0;
+		font-size: 1.5em;
+		font-family: arial;
+		text-align: center;
 
-header img {
-	width: 5%;
-	height: auto;
-	display: inline-block;
-	float: left;
-}
+	}
+	
+@media screen and (max-width: 1200px)
+	      and (min-width: 600px) {
 
-header h1 {
-	background-color: #85DBFA;
-	width: 95%;
-	margin: 0;
-	padding: 0;
-	font-size: 1.5em;
-	float: right;
-	font-family: arial;
-	text-align: center;
-}
+		      
+		      
+	}
+	
+@media screen and (max-width: 600px) {
+	
+	
+	header img {
+		width: 5%;
+		height: auto;
+		display: inline-block;
+		float: left;
+	}
+
+	header h1 {
+		background-color: #85DBFA;
+		width: 95%;
+		margin: 0;
+		padding: 0;
+		font-size: 1.5em;
+		float: right;
+		font-family: arial;
+		text-align: center;
+	}
 /* ~~~~~~~~~~~~~~ navigation ~~~~~~~~~~~~~~~~~~~~~*/
 
 
@@ -109,14 +141,6 @@ footer {
 }
 
 @media only screen and (min-width: 1200px) {
-	header img{
-
-	
-	}
-	header h1 {
-		width: 95%;
-		line-height: auto;
-	}
 	
 	#wrapper {
 		width: 100%;
