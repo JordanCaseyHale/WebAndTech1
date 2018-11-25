@@ -5,10 +5,9 @@
 
 
 .logo {
-	width: 10%;
+	width: 1em;
 	display: inline-block;
 	float: left;
-	margin: 100px 100px;
 }
 
 header h1 {
