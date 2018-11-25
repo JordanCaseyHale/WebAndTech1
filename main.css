@@ -7,6 +7,7 @@
 	header {
 		background-color: #85DBFA;
 		margin: 0 5% 0 5%;
+		color: green;
 	}
 	header img{
 		width: 10%;
@@ -23,6 +24,7 @@
 		font-size: 1.5em;
 		font-family: arial;
 		text-align: center;
+		color: red;
 
 	}
 	
