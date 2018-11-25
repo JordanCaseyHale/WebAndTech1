@@ -5,7 +5,8 @@
 
 
 .logo {
-	width: 1em;
+	width: 5%;
+	height: auto;
 	display: inline-block;
 	float: left;
 }
