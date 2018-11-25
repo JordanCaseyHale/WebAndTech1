@@ -3,6 +3,9 @@
 
 /* ~~~~~~~~~~~~~~ header ~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
+header {
+	height: 20px;
+}
 
 header img {
 	width: 5%;
