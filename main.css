@@ -27,13 +27,14 @@
 		color: red;
 
 	}
+}
 	
 @media screen and (max-width: 1200px)
 	      and (min-width: 600px) {
 
 		      
 		      
-	}
+}
 	
 @media screen and (max-width: 600px) {
 	
@@ -55,6 +56,7 @@
 		font-family: arial;
 		text-align: center;
 	}
+}
 /* ~~~~~~~~~~~~~~ navigation ~~~~~~~~~~~~~~~~~~~~~*/
 
 
