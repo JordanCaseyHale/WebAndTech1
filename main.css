@@ -4,14 +4,15 @@
 /* ~~~~~~~~~~~~~~ header ~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 @media only screen and (min-width: 1200px) {
-	.top {
+	header {
 		background-color: #85DBFA;
 		margin: 0 5% 0 5%;
-		height: auto;
+		height: 50px;
 	}
 	
-	.logo {
-		width: 5%;
+	header img {
+		height: 50px;
+		width: auto;
 		float: left;
 		margin: 0;
 		padding: 0;
