@@ -138,8 +138,9 @@ p {
 	text-align: center;
 }
 
-li {
-	font-family: arial;	
+main li {
+	font-family: arial;
+	text-align: center;
 }
 #.contactform {
 	text-align: center;
