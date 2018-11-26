@@ -56,6 +56,10 @@
 		font-family: arial;
 		text-align: center;
 	}
+	
+	footer {
+		font-size: 1em;
+	}
 }
 /* ~~~~~~~~~~~~~~ navigation ~~~~~~~~~~~~~~~~~~~~~*/
 
