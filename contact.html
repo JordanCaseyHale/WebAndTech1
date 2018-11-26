@@ -63,10 +63,30 @@
 	</nav>
 	
 	<main>
-		<p>If there are any questions or comments don't hesitate to contact us</p>
-		<ul>
-			<li> Helena's Email: HMWong1@sheffield.ac.uk </li>
-			<li> Jordan's Email: JHale2@sheffield.ac.uk </li>
+			<p>If there are any questions or comments don't hesitate to contact us by filling out the form below</p>
+			
+			<form class = "contactform" action = "mailto:hmwong1@sheffield.ac.uk,jhale2@sheffield.ac.uk" method = "post" enctype = "text/plain">
+				<fieldset>
+					<div class = "group">
+						<label for = "name">Name</label>
+						<input id = "name" type = "text" name = "name" placeholder = "enter name here">
+					</div>
+					
+					<div class = "group">
+						<label for = "email">Email Address</label>
+						<input id = "email" type = "email" name = "email" placeholder = "enter email address here">
+					</div>
+					
+					<div class = "group">
+						<label for = "comments">Comments/Query</label>
+						<input id = "comments" type = "text" name = "comments" placeholder = "enter comments/query here...">
+					</div>
+					
+					<div class = "group">
+					<button type = "submit">Submit</button>
+					</div>
+				</fieldset>
+			</form>
 	</main>
 	
 	<footer>
