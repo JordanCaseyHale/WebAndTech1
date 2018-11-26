@@ -7,8 +7,8 @@
 	header {
 		background-color: #85DBFA;
 		margin: 0 5% 0 5%;
-		color: green;
 	}
+	
 	.logo {
 		width: 10%;
 		float: left;
@@ -16,6 +16,7 @@
 		padding: 0;
 		display: inline-block;
 	}
+	
 	header h1 {
 		width: 90%;
 		float: right;
@@ -24,8 +25,6 @@
 		font-size: 1.5em;
 		font-family: arial;
 		text-align: center;
-		color: red;
-
 	}
 }
 	
@@ -66,8 +65,7 @@ li {
 
 
 #wrapper{
-	width: 320px;
-	margin: 0 auto;
+	margin: 0 5% 0 5%;
 } 
 
 .multi-level, .item ul, .mainnav input[type = "checkbox"] {
