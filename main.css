@@ -7,6 +7,7 @@
 	header {
 		background-color: #85DBFA;
 		margin: 0 5% 0 5%;
+		padding: 10px 0 0 0;
 		height: 50px;
 	}
 	
@@ -67,7 +68,7 @@ li {
 
 
 #wrapper{
-	margin: 5% 5% 0 5%;
+	margin: 0 5% 0 5%;
 } 
 
 .multi-level, .item ul, .mainnav input[type = "checkbox"] {
