@@ -138,6 +138,14 @@ p {
 li {
 	font-family: arial;	
 }
+#.contactform {
+	text-align: center;
+	font-family: arial;
+	font-size: 0.8em;
+}
+.group {
+	display: inline-block;
+}
 /* ~~~~~~~~~~~~~~ footer ~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 footer {
