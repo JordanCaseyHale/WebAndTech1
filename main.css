@@ -1,12 +1,14 @@
 /* ~~~~~~~~~~~~~~ header ~~~~~~~~~~~~~~~~~~~~~~~~~*/
 /* Large screens/Desktops */
 @media only screen and (min-width: 1200px) {
+	/* Sets the properties of the background in the header section */
 	header {
 		background-color: #85DBFA;
 		margin: 1% 0 0 0;
 		height: 50px;
 	}
 	
+	/* Sets the size and position of the logo in the header section */
 	.logo {
 		height: 50px;
 		width: auto;
@@ -16,6 +18,7 @@
 		display: inline-block;
 	}
 	
+	/* Sets the properties of the title */
 	header h1 {
 		width: 90%;
 		float: right;
@@ -35,6 +38,7 @@
 		height: 50px;
 	}
 	
+	/* Sets the size and position of the logo in the header section */
 	.logo {
 		height: 50px;
 		width: auto;
@@ -44,6 +48,8 @@
 		display: inline-block;
 	}
 	
+
+	/* Sets the properties of the title */
 	header h1 {
 		width: 90%;
 		float: right;
@@ -59,6 +65,7 @@
 /* Small screens/Mobile phones */
 @media only screen and (max-width: 600px) {
 	
+	/* Sets the size and position of the logo in the header section */
 	.logo {
 		width: 20%;
 		height: auto;
@@ -68,6 +75,7 @@
 		padding: 0;
 	}
 
+	/* Sets the properties of the title */
 	header h1 {
 		background-color: #85DBFA;
 		width: 80%;
@@ -77,10 +85,6 @@
 		float: right;
 		font-family: arial;
 		text-align: center;
-	}
-	
-	footer {
-		font-size: 1.5em;
 	}
 }
 /* ~~~~~~~~~~~~~~ navigation ~~~~~~~~~~~~~~~~~~~~~*/
@@ -173,6 +177,12 @@ main li {
 }
 .group {
 	display: inline-block;
+}
+
+@media only screen and (max-width: 600px) {
+	footer {
+		font-size: 1.5em;
+	}
 }
 
 /* ~~~~~~~~~~~~~~ footer ~~~~~~~~~~~~~~~~~~~~~~~~~*/
