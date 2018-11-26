@@ -67,7 +67,7 @@ li {
 
 
 #wrapper{
-	margin: 0 5% 0 5%;
+	margin: 5% 5% 0 5%;
 } 
 
 .multi-level, .item ul, .mainnav input[type = "checkbox"] {
@@ -145,10 +145,6 @@ footer {
 }
 
 @media only screen and (min-width: 1200px) {
-	
-	#wrapper {
-		width: 100%;
-	}
 	
 	body img {
 		width: 50%;
