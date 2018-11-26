@@ -174,13 +174,18 @@ main li {
 	font-family: arial;
 	text-align: center;
 }
-#.contactform {
+.contactform {
 	text-align: center;
 	font-family: arial;
 	font-size: 0.8em;
 }
 .group {
 	display: inline-block;
+}
+
+#comments {
+	width:50px;
+	height: 50px;
 }
 
 @media only screen and (max-width: 600px) {
