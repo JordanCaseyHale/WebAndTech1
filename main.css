@@ -134,6 +134,10 @@ h1,p {
 p {
 	text-align: center;
 }
+
+li {
+	font-family: arial;	
+}
 /* ~~~~~~~~~~~~~~ footer ~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 footer {
